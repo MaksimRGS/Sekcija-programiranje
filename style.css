@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:myFont;
+}
+@font-face {
+    font-family: myFont;
+    src: url(font/Poppins-ExtraLight.ttf);
+}
+
+.navbar
+{
+    background-color: #333;
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex;
+    align-items: center;   
+}
+.nav-links
+{
+    list-style: none;
+    display: flex;
+}
+.navbar li
+{
+    margin-right: 30px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover
+{
+    border-bottom: 2px solid gold;
+    
+}
