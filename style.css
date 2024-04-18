@@ -40,3 +40,82 @@
     border-bottom: 2px solid gold;
     
 }
+.welcome-section
+{
+    background-image: url('/img/welcome.png');
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.welcome-content
+{
+    margin-bottom : 10;
+    font-size:50px;
+}
+
+.welcome-text h1
+{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.welcome-text p
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.welcome-text button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.welcome-text button:hover
+{
+    background-color: gold;
+}
+
+.welcome-section img
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+}
+
+.about-section
+{
+    display: flex;
+    border-top: 1px solid #333;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+.onama-h2{
+    color: tomato;
+        font-style: italic;
+    }
+
+.about-content
+{
+    max-width: 900px;
+    padding: 50px;
+}
+
+.about-content h2
+
+{
+    margin-bottom: 10px;
+}
+
